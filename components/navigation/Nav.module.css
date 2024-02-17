@@ -1,0 +1,7 @@
+.navUl {
+  display: flex;
+}
+
+.selected > a {
+  border: 1px solid #63c;
+}
