@@ -40,8 +40,8 @@ export default function QuestionsPage({ params }: { params: { id: string } }) {
 
   return (
     <div>
-      <h1>{question.title}</h1>
-      <p>{question.body}</p>
+      <h1>{question?.title}</h1>
+      <p>{question?.body}</p>
       <div>
         <h2>Comments</h2>
         {comments.length > 0 ? (
