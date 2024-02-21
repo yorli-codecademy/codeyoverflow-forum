@@ -34,7 +34,7 @@ export default function HomePage() {
   return (
     <>
       <header className={styles.header}>
-        <h1>Welcome To CodeyOverflow Forum</h1>
+        <h1>CodeyOverflow Forum</h1>
         <p>A question forum for the curious.</p>
       </header>
       <h2>Featured Posts</h2>
